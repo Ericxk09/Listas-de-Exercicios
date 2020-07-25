@@ -1,5 +1,5 @@
 n = 1
-print("Digite zero ou qualquer valor para parar o programa")
+print("Digite zero ou um valor menor que 0 para parar o programa")
 
 while n >= 1:
     
@@ -12,7 +12,7 @@ while n >= 1:
     while x != n or x == n:
         if x > n and n >= 1:
             print("Numero não é triangular")
-            print("Digite zero ou valor para parar o programa")
+            print("Digite zero ou um valor menor que 0 para parar o programa")
             print()
             break
         elif x == n:
